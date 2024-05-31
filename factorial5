@@ -1,0 +1,12 @@
+int main ()
+  int x= 5, y = 1;
+  if (x < 0) {
+    printf("El número es negativo");
+  }
+  else {
+    for (int i = y++; i < x; i++) {
+      y = x * i;
+    }
+    printf("El factorial de %d es %d", x, y);
+  }
+}
